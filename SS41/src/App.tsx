@@ -9,7 +9,6 @@ import BT7 from "./components/BT7";
 import Bt8 from "./components/BT8";
 import BT9 from "./components/BT9";
 import BT10 from "./components/BT10";
-
 export default function App() {
   return (
     <div>

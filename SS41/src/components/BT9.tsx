@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import 'bootstrap-icons/font/bootstrap-icons.css';
 function BT9() {
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(true);
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
@@ -63,6 +63,7 @@ function BT9() {
               <i className="bi bi-chevron-down"></i>
             </span>
           </div>
+          
         </div>
         <div
           className={`text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold ${
